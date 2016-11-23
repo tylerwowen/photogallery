@@ -19,6 +19,7 @@ var artificialResponsiveness = function(e){
 
 var showTitle = function(title) {
     $('#album_title').text(title);
+    document.title = title;
 }
 
 window.onresize = artificialResponsiveness;
